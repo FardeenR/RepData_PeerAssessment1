@@ -1,8 +1,8 @@
 ---
-title: 'Reproducible Research: Course Project 1'
-author: "FardeenR"
-date: "9/16/2021"
-output: html_document
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
