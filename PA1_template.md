@@ -6,6 +6,12 @@ output:
 ---
 
 
+```r
+library(dplyr)
+library(magrittr)
+library(knitr)
+library(ggplot2)
+```
 
 
 ## 1. Loading and Processing the Data
@@ -41,7 +47,7 @@ hist(daily_steps$steps, main="Histogram of total number of steps per day",
      xlab="Total number of steps in a day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+![](PA1_template_files/figure-html/hist-1.png)<!-- -->
 
 
 
@@ -71,7 +77,7 @@ plot(avg_step_daily$interval, avg_step_daily$steps, type='l',
      ylab="Average number of steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](PA1_template_files/figure-html/plot-1.png)<!-- -->
 
 
 
@@ -152,7 +158,7 @@ hist(dataset_imputed$steps, main="Histogram of total number of steps per day (im
      xlab="Total number of steps in a day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](PA1_template_files/figure-html/hist2-1.png)<!-- -->
 
 
 
@@ -233,4 +239,4 @@ qplot(interval,
   facet_wrap(~ type_of_day, ncol = 1)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](PA1_template_files/figure-html/plot2-1.png)<!-- -->
