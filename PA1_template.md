@@ -8,8 +8,6 @@ output:
 
 
 
-
-
 ## 1. Loading and Processing the Data
 
 
