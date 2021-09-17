@@ -1,8 +1,8 @@
 ---
-title: 'Reproducible Research: Course Project 1'
-author: "FardeenR"
-date: "9/16/2021"
-output: html_document
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
 ---
 
 
@@ -43,7 +43,7 @@ hist(daily_steps$steps, main="Histogram of total number of steps per day",
      xlab="Total number of steps in a day")
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
+![](PA1_template_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
 
 
 
@@ -73,7 +73,7 @@ plot(avg_step_daily$interval, avg_step_daily$steps, type='l',
      ylab="Average number of steps")
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
+![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
 
 
 
@@ -154,7 +154,7 @@ hist(dataset_imputed$steps, main="Histogram of total number of steps per day (im
      xlab="Total number of steps in a day")
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
+![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
 
 
 
@@ -235,4 +235,4 @@ qplot(interval,
   facet_wrap(~ type_of_day, ncol = 1)
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png)
+![](PA1_template_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
